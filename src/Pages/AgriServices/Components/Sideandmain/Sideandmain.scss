@@ -1,0 +1,281 @@
+.sectionmain {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 100px 0px;
+    padding: 0 100px;
+
+    .sidebar {
+        width: 22%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+
+        .categories {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            background-color: #F8F7F0;
+            border-radius: 10px;
+            padding: 50px 50px;
+            gap: 5px;
+
+            h3 {
+                font-family: Manrope;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 30px;
+                text-align: left;
+                color: #1F1E17;
+            }
+
+            p {
+                font-family: Manrope;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 40px;
+                text-align: left;
+                color: #878680;
+            }
+
+        }
+
+        .help {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('../Assets/women.jpeg');
+            border-radius: 10px;
+            padding: 30px 50px;
+            gap: 30px;
+
+            h2 {
+                font-family: Manrope;
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 30px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+
+            p {
+                font-family: Manrope;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 30px;
+                text-align: center;
+                color: #C3F5C1;
+            }
+
+            h3 {
+                font-family: Covered By Your Grace;
+                font-size: 36px;
+                font-weight: 400;
+                line-height: 67.5px;
+                text-align: center;
+                color: #FFFFFF;
+
+            }
+
+            button {
+                width: 70%;
+                font-family: Manrope;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                background-color: #EEC044;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                padding: 16px 18px;
+
+
+            }
+        }
+    }
+
+    .sidemain {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+
+
+        .mainimage {
+            width: 100%;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .vectorimage {
+            width: 8%;
+            padding: 20px;
+            background-color: #C5CE38;
+            border-radius: 10px;
+            position: absolute;
+            top: 677px;
+            right: 204px;
+        }
+
+        .agriproducts {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 30px;
+
+            h2 {
+                font-family: Manrope;
+                font-size: 44px;
+                font-weight: 800;
+                line-height: 56px;
+                text-align: left;
+                color: #1F1E17;
+            }
+
+            p {
+                font-family: Manrope;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 36px;
+                text-align: left;
+                color: #878680;
+            }
+        }
+
+        .benifits {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            .ourbenifits {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+                h3 {
+                    font-family: Manrope;
+                    font-size: 34px;
+                    font-weight: 800;
+                    line-height: 36px;
+                    text-align: left;
+                    color: #1F1E17;
+                }
+
+                p {
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #878680;
+
+                }
+
+            }
+
+            .tomatos {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+
+                p {
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 36px;
+                    text-align: left;
+                    color: #1F1E17;
+
+                }
+
+                span {
+                    display: block;
+                }
+
+            }
+        }
+
+        .moreinfo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+
+            .titleinfo {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                background-color: #F8F7F0;
+                border-radius: 10px;
+                padding: 20px;
+
+                h3 {
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-weight: 800;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #1F1E17;
+                }
+
+                .arrow {
+                    background-color: #C5CE38;
+                    color: white;
+                    border-radius: 10px;
+                    width: 7%;
+                    height: 5vh;
+                    text-align: left;
+                }
+
+            }
+            p {
+                width: 90%;
+                font-family: Manrope;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                text-align: left;
+                color: #878680;
+            }
+
+        }
+
+    }
+}

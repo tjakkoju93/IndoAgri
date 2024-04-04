@@ -1,0 +1,202 @@
+.Sections {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .start {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+    .middle {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 100px;
+        height: 70vh;
+
+        .second {
+            position: relative;
+
+            .girl {
+                width: 100%;
+
+                img {
+            
+                    height: 50vh;
+                }
+
+            }
+
+            .leaves {
+                width: 30%;
+                position: absolute;
+                bottom: -30px;
+                left: -85px;
+                rotate: (7deg);
+
+                img {
+                    width: 100%;
+                }
+
+            }
+        }
+
+
+        .third {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+            position: relative;
+
+            .organicfarm {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 20px;
+                position: absolute;
+                top: -317px;
+                width: 75%;
+
+                h2 {
+                    font-family: Outfit;
+                    font-size: 50px;
+                    font-weight: 600;
+                    line-height: 60px;
+                    text-align: left;
+                    color: #04000B;
+
+                }
+
+                p {
+                    font-family: Outfit;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28.8px;
+                    text-align: left;
+                    color: #666666;
+
+                }
+
+                .value {
+                    width: 100%;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    gap: 20px;
+
+                    h3 {
+                        font-family: Outfit;
+                        font-size: 100px;
+                        font-weight: 500;
+                        line-height: 70px;
+                        text-align: left;
+                        color: #49A760;
+                       
+                    }
+
+                    h4{
+                        border: 1px solid #666666;
+                        height: 6vh;
+                    }
+
+                    p {
+                        font-family: Outfit;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 27.2px;
+                        text-align: left;
+                        color: #04000B;
+                       
+                    }
+
+                }
+
+            }
+
+            .third-child {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                position: absolute;
+                bottom: -303px;
+                left: -115px;
+
+
+                .orange,
+                .green {
+                    width: 290px;
+                    height: 280px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 10px;
+
+
+
+                }
+
+                img {
+                    width: 80px;
+                }
+
+                h4 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 28.8px;
+                    text-align: left;
+
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28.8px;
+                    text-align: left;
+
+                }
+
+                .orange {
+                    background-color: #F7C35F;
+
+
+                    h4,
+                    p {
+                        color: #04000B;
+                    }
+                }
+
+                .green {
+                    background-color: #49A760;
+
+                    h4,
+                    p {
+                        color: #FCFCFC;
+                    }
+                }
+
+
+
+
+            }
+        }
+    }
+
+}

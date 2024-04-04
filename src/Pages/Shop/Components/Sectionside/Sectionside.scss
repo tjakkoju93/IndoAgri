@@ -1,0 +1,260 @@
+.herosection {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin:200px 0;
+    padding: 0 50px;
+
+    .sidebar {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
+        // height: 80vh;
+
+        button {
+            width: 100%;
+            background-color: #EEC044;
+            color: #FFFFFF;
+            padding: 30px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+
+        .price {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 30px;
+            border: 1px solid #ECE7E2;
+            padding: 50px;
+            border-radius: 10px;
+
+            h4 {
+                font-family: Manrope;
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 30px;
+                text-align: left;
+                color: #1F1E17;
+            }
+
+            .range {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .circle {
+                    border: 3px solid black;
+                    width: 23px;
+                    height: 23px;
+                    background-color: white;
+                    border-radius: 50%;
+                }
+
+                .line {
+                    width: 230px;
+                    height: 8px;
+                    // background: linear-gradient(0deg, #F8F7F0, #F8F7F0),
+                    //     linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #EEC044 0%, #c89c24 100%, rgba(0, 0, 0, 0) 100%);
+                    background-color: #EEC044;
+
+                }
+
+            }
+
+            .filter {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                p {
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 40px;
+                    text-align: left;
+                    color: #878680;
+                }
+
+                button {
+                    height: 7vh;
+                    width: 54%;
+                    background-color: #4BAF47;
+                    font-family: Manrope;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: none;
+                    outline: none;
+                }
+
+            }
+
+        }
+
+        .categories {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 30px;
+            border: 1px solid #ECE7E2;
+            padding: 30px;
+
+            h3 {
+                font-family: Manrope;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 30px;
+                text-align: left;
+                color: #1F1E17;
+
+            }
+
+            .list {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                p {
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    text-align: left;
+                    color: #878680;
+                }
+
+            }
+        }
+
+    }
+
+    .mainsection {
+        width: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .header {
+            height: 10vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-direction: row;
+
+            p {
+                font-family: Manrope;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 33.75px;
+                text-align: left;
+                color: #878680;
+
+            }
+
+            button {
+                width: 25%;
+                border: 1px solid #ECE7E2;
+                color: #878680;
+                border-radius: 10px;
+                text-align: center;
+                padding: 25px 25px;
+                font-family: Manrope;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 26px;
+            }
+
+        }
+
+        .market {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+
+
+            .list {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+
+                img {
+                    border-radius: 10px;
+                }
+
+                h3 {
+                    font-family: Manrope;
+                    font-size: 22px;
+                    font-weight: 800;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #1F1E17;
+
+                    .star{
+                        color: #EEC044;
+                    }
+                }
+
+                h4 {
+                    font-family: Manrope;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #4BAF47;
+                }
+
+            }
+        }
+
+    }
+
+    .pagenumbers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    
+        .green{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ECE7E2;
+            border-radius: 10px;
+            background-color: #4BAF47;
+            color: white;
+        }
+        .number{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ECE7E2;
+            border-radius: 10px;
+            color: #878680;
+
+        }
+        
+    }
+}
