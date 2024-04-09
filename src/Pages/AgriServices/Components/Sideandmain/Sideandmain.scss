@@ -82,6 +82,10 @@
                 text-align: center;
                 color: #FFFFFF;
 
+                @media(max-width:1550px){
+                    font-size: 30px;
+                }
+
             }
 
             button {

@@ -61,6 +61,13 @@
                 background-color: #4BAF47;
                 z-index: 99;
 
+                @media(max-width:1500px) {
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    top: 8em;
+                    left: 1em;
+                }
             }
 
             .green {
@@ -89,6 +96,7 @@
                     text-align: right;
                     color: #1F1E17;
                 }
+
             }
         }
 
@@ -131,6 +139,7 @@
         width: 90%;
 
 
+
         .picture {
             display: flex;
             justify-content: center;
@@ -151,9 +160,21 @@
                 border-radius: 10px 0px 0px 0px;
                 color: white;
                 position: absolute;
-                bottom: 15px;
-                right: 195px;
+                bottom: 1em;
+                right: 8em;
                 z-index: 99;
+
+                @media(max-width:1650px) {
+
+                    bottom: 1em;
+                    right: 8em;
+                }
+
+                @media(max-width:1550px) {
+
+                    bottom: 1em;
+                    right: 8em;
+                }
 
             }
 
@@ -193,12 +214,26 @@
 
             }
 
+            @media(max-width:1550px) {
+
+                width: 30%;
+
+            }
+
+        }
+
+        @media(max-width:1850px) {
+            // flex-direction: column;
+            width: 80%;
+            flex-wrap: wrap;
+
         }
 
     }
+
 }
 
-.blonde{
+.blonde {
     background-color: #F8F7F0;
     height: 20vh;
 }

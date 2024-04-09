@@ -78,6 +78,11 @@
         }
 
     }
+
+    @media(max-width:1820px){
+        flex-direction: column;
+
+    }
 }
 
 .arrow {

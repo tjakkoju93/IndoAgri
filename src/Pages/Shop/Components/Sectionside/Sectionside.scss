@@ -60,13 +60,23 @@
                 }
 
                 .line {
-                    width: 230px;
+                    width: 15em;
                     height: 8px;
                     // background: linear-gradient(0deg, #F8F7F0, #F8F7F0),
                     //     linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #EEC044 0%, #c89c24 100%, rgba(0, 0, 0, 0) 100%);
                     background-color: #EEC044;
+                    @media(max-width:1750px){
+                        width: 13em;
+                    }
+                    @media(max-width:1560px){
+                        width: 11em;
+                    }
+                    @media(max-width:1480px){
+                        width: 8em;
+                    }
 
                 }
+
 
             }
 
@@ -84,6 +94,11 @@
                     line-height: 40px;
                     text-align: left;
                     color: #878680;
+
+                    @media(max-width:1650px) {
+                   
+                        font-size: 22px;
+                    }
                 }
 
                 button {
@@ -98,6 +113,20 @@
                     color: #FFFFFF;
                     border: none;
                     outline: none;
+                    @media(max-width:1650px) {
+                   
+                        height: 6vh;
+                        width: 70%;
+                        line-height: 27px;
+                    }
+
+                    
+                }
+                @media(max-width:1650px) {
+                   
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 10px;
                 }
 
             }

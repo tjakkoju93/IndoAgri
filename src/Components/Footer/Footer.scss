@@ -13,7 +13,7 @@
         align-items: flex-start;
         gap: 20px;
         padding: 0 40px;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
 
 
         .footer-card {
@@ -189,4 +189,10 @@
     }
 
 
+}
+
+@media(max-width:1700px){
+    .Sections .middle .third .organicfarm{
+        width: 100%;
+    }
 }

@@ -9,6 +9,7 @@
 
     img {
         border-radius: 10px;
+        width: 60%;
     }
 
     .project-section {
@@ -211,6 +212,7 @@
             .cow {
                 background-image: url('../../Assets/cow.png');
                 background-position: right;
+           
             }
 
             .berry {
@@ -225,7 +227,10 @@
             .fresh {
                 background-image: url('../../Assets/freshproducts.png');
             }
-
+            @media(max-width:1500px){
+                flex-wrap: wrap;
+                width: 50%;
+            }
         }
     }
 }

@@ -53,7 +53,7 @@ const SectionBottom = () => {
             {
                 breakpoint: 1500,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 2,
                     infinite: true,
                     dots: true
@@ -276,7 +276,7 @@ const SectionBottom = () => {
                                 <p>Md Sohag . 25 April, 2023</p>
                                 <h3>Expression acceptance
                                     imprudence particular</h3>
-                                <h4>Continue Reading <ArrowForwardIcon /></h4>
+                                <h4>CONTINUE READING <ArrowForwardIcon /></h4>
                             </div>
                         </div>
                         <div className="girlsmileimage">

@@ -31,14 +31,34 @@
                 line-height: 110px;
                 text-align: justify;
                 color: #080808;
+                position: absolute;
+                top: -3em;
+                left: 6em;
+
+
+                @media(max-width:1720px) {
+                    left: 5em;
+
+                }
+
+                @media(max-width:1720px) {
+                    left: 4em;
+
+                }
+
+                @media(max-width:1440px) {
+                    left: 3em;
+
+                }
+
 
             }
 
             .hatman {
                 position: absolute;
-                top: -242px;
-                left: -240px;
-                scale: 0.4;
+                top: -6em;
+                left: -6em;
+                width: 39%;
 
             }
 
@@ -55,6 +75,9 @@
                 padding: 40px 40px 40px 100px;
                 gap: 30px;
 
+
+
+
                 img {
                     opacity: 7%;
                     scale: 0.3;
@@ -70,6 +93,13 @@
                     line-height: 51.2px;
                     text-align: left;
                     color: #666666;
+
+                    @media(max-width:1620px) {
+                        font-size: 28px;
+                    }
+
+
+
                 }
 
                 .rating {
@@ -110,16 +140,30 @@
 
 
                 }
-            }
 
+                @media(max-width:1530px) {
+                    padding: 40px;
+
+                }
+            }
 
         }
 
         img {
-            scale: 0.5;
+            width: 61%;
             position: absolute;
-            bottom: -155px;
-            left: -70px;
+            bottom: -4em;
+            left: 10em;
+
+            @media(max-width:1720px) {
+                left: 9em;
+
+            }
+
+            @media(max-width:1440px) {
+                left: 8em;
+
+            }
         }
     }
 
@@ -172,15 +216,19 @@
         img {
             width: 100%;
             height: 90vh;
-        
+
+            @media(max-width:1500px) {
+                height: 50vh;
+            }
+
         }
 
-        .farmtext{
+        .farmtext {
             width: 100%;
             height: 10vh;
-            // background-color: transparent;
             position: absolute;
             top: 50%;
+
             h2 {
                 font-family: Outfit;
                 font-size: 100px;
@@ -188,14 +236,19 @@
                 line-height: 28.8px;
                 text-align: left;
                 color: white;
-               
-                // left: 0;
-    
+
+                @media(max-width:1500px) {
+                    font-size: 50px;
+                }
             }
 
         }
 
-     
+
+        @media(max-width:1500px) {
+            height: 58vh;
+        }
+
 
     }
 
@@ -249,6 +302,10 @@
 
 
             }
+
+            @media(max-width:1500px) {
+                width: 50%;
+            }
         }
 
         .quality {
@@ -266,6 +323,10 @@
                 text-align: center;
                 color: #04000B;
             }
+        }
+
+        @media(max-width:1500px) {
+            justify-content: center;
         }
     }
 }
@@ -285,6 +346,13 @@
         top: 165px;
         left: 200px;
         z-index: 9999;
+
+
+        @media(max-width:1500px) {
+            top: 12em;
+            left: 4em;
+            width: 22%;
+        }
     }
 
     .frame {
@@ -319,6 +387,10 @@
             line-height: 60px;
             text-align: left;
             color: #04000B;
+
+            @media(max-width:1400px) {
+                font-size: 25px;
+            }
         }
 
         .input-form {
@@ -381,7 +453,23 @@
             }
 
 
+
         }
+
+        @media(max-width:1500px) {
+
+            top: 5em;
+            left: 18em;
+            padding: 15px;
+
+        }
+
+        @media(max-width:1400px) {
+
+            gap: 15px;
+
+        }
+
     }
 
     .green {
@@ -403,6 +491,7 @@
             align-items: flex-start;
             flex-direction: column;
             gap: 20px;
+            width: 61%;
 
             h2 {
                 font-family: Outfit;
@@ -434,11 +523,28 @@
         }
 
         .corn-pic {
-            scale: 0.75;
-            position: absolute;
-            right: -33px;
-            bottom: -63px;
+            width: 34%;
 
+
+            img {
+                width: 30%;
+                position: absolute;
+                right: 0em;
+                bottom: 0em;
+
+                @media(max-width:1700px) {
+                    width: 25%;
+                }
+            }
+
+            @media(max-width:1700px) {
+                width: 30%;
+            }
+
+        }
+
+        @media(max-width:1500px) {
+            width: 60%;
         }
     }
 }
@@ -446,7 +552,7 @@
 .blog {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
     flex-direction: column;
     gap: 30px;
@@ -478,6 +584,7 @@
         align-items: center;
         gap: 30px;
         width: 80%;
+
 
         .main-pic {
             width: 50%;
@@ -537,7 +644,16 @@
                 position: relative;
 
                 img {
-                    scale: 0.4;
+                    width: 94%;
+                    position: absolute;
+                    top: -13em;
+                    left: 0em;
+
+                    @media(max-width:1760px) {
+                        top: 2em;
+                        left: 0.5em;
+
+                    }
                 }
 
                 .girlimagecontent {
@@ -548,8 +664,8 @@
                     flex-direction: column;
                     gap: 20px;
                     position: absolute;
-                    bottom: -60px;
-                    left: 11px;
+                    bottom: -16em;
+                    left: 0em;
 
                     p {
                         font-family: Outfit;
@@ -578,6 +694,11 @@
                         color: #04000B;
                     }
 
+                    @media(max-width:1760px) {
+                        bottom: -29em;
+                        left: 1em;
+                    }
+
                 }
 
 
@@ -593,8 +714,8 @@
                 gap: 20px;
                 padding-top: 20px;
                 position: absolute;
-                top: 355px;
-                left: 11px;
+                top: -2em;
+                left: 1em;
 
                 h2 {
                     font-family: Outfit;
@@ -624,10 +745,26 @@
                     }
                 }
 
+                @media(max-width:1760px) {
+                    top: 11em;
+                    left: 2em;
+                }
 
 
             }
 
         }
+
+        @media(max-width:1830px) {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+
+    @media(max-width:1830px) {
+        height: 85vh;
+        padding: 50px 0;
+        justify-content: top;
     }
 }
